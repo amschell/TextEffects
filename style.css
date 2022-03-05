@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: black;
+    background: url(./pexels-rakicevic-nenad-1274260.jpg);
+}
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main{
+    margin-top: 20px;
+    width: 100vw;
+    height: 250vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ h1{
+     
+     height: 40px;
+    color:orchid;
+
+    font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    
+    height: 200vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+h2{
+    color:white;
+    margin:20px;
+    margin-top: 50px;
+    width: 60px;
+
+}
+li{
+    color: white;
+    margin:20px;
+
+    font-family: 'Courier New', Courier, monospace;}
+.inner{
+    display: flex;
+    
+}
+#skills{
+    left: 350px;
+    color: orange;
+    height: 30px;
+}
+ul{
+    position: relative;
+    top: 70px;
+    right: 100px;
+}
+button{
+    position: relative;
+    top:100px;
+    width: 150px;
+    height: 50px;
+    color:white;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+}
+#tweet{
+    position: relative;
+    left: 100px;
+    top: 110px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    width: 70px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+
+}
